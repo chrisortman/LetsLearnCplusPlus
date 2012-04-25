@@ -1,5 +1,5 @@
 CFLAGS=-g -Wall
-OBJECTS=ex1 ex3 ex4 ex5 ex6
+OBJECTS=ex1 ex3 ex4 ex5 ex6 ex7
 
 all: ${OBJECTS}
 
@@ -12,3 +12,4 @@ clean:
 	rm -f ex4
 	rm -f ex5
 	rm -f ex6
+	rm -f ex7
